@@ -1,0 +1,148 @@
+\documentclass[10pt,a4paper]{report}
+\usepackage[latin1]{inputenc}
+\usepackage{hyperref}
+\usepackage{multirow}
+\usepackage{color}
+\usepackage{array}
+
+%% FOR PAGE LAYOUT (geometry)
+\usepackage{geometry}
+\setlength\voffset{-0.5in}
+\setlength\hoffset{-0.5in}
+\setlength\textwidth{6.5in}
+\setlength\textheight{10.0in}
+
+%% GLOBAL HEADER AND FOOTER
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhf{}
+
+\fancyhead[LO]{\small Phase-3 TFI Software Design Document}
+\fancyhead[CO]{}
+\fancyhead[RO]{\small Page \small \thepage \space \small of \small \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.5pt} 
+\fancyhead[LE]{\small Phase-3 TFI Software Design Document}
+\fancyhead[CE]{}
+\fancyhead[RE]{\small Page \small \thepage \space \small of \small \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt} %% 0pt to remove line
+\fancyfoot[LO]{\small Phase-3 TFI Software Design Document}
+\fancyfoot[CO]{}
+\fancyfoot[RO]{\small \today}
+%% EVEN PAGES FOOTER
+\renewcommand{\footrulewidth}{0.5pt}
+\fancyfoot[LE]{\small \jobname}
+\fancyfoot[CE]{}
+\fancyfoot[RE]{\small \today}
+\usepackage{titlesec}
+\titlespacing*{\chapter}{0pt}{0pt}{20pt}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{supertabular}
+\usepackage{hhline}
+\usepackage{tabu}
+\usepackage{tikz}
+\usetikzlibrary{fit,chains}
+\usepackage[europeanresistors,americaninductors]{circuitikz}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\numberwithin{equation}{subsection}
+\usepackage{hyperref}
+\usepackage[nonumberlist, acronym, toc]{glossaries}
+\usepackage{pdflscape}
+\usepackage[intoc]{nomencl}
+\makenomenclature
+\renewcommand{\nomname}{List of Abbreviations}
+\usepackage{appendix}
+\usepackage{listings}
+\usepackage{caption}
+\usepackage{makeidx}
+\makeindex
+
+
+
+\begin{document}
+	
+	\thispagestyle{empty}
+	\begin{titlepage}
+		\null\vfill
+		
+		\begin{center}
+			
+		{\Large \textbf{SOFTWARE DESIGN DOCUMENT}}
+		\vspace{10mm}
+		
+		{\Large \textbf{FOR THE}}
+		\vspace{10mm}
+		
+		{\Large \textbf{TANK FARM INVENTORY(TFI) SYSTEM}}
+		\vspace{10mm}
+		
+		{\Large \textbf{FOR}}
+		\vspace{10mm}
+		
+		{\Large \textbf{TERMINAL SERVICES INCORPORATED}}
+		\vspace{10mm}
+		
+		{\Large \textbf{(TS Inc.)}}
+		\vspace{10mm}
+		
+		
+		\end{center}
+		
+		
+		\vfill
+		\vfill
+		
+		\begin{flushleft}
+			
+		\textbf{Document Date :}\\
+		\today
+		\vspace{7mm}
+		
+		\textbf{Prepared by :}\\
+		Terminal Services Incorporated,\\
+		100, Park Lane Avenue, STB,\\
+		65007,Republic of BSM.\\
+		www.tsinc.com
+		\vspace{7mm}
+		
+		\textbf{Authors :}\\
+		Oh Soon Kit 1132702874 \\
+		Mahaseni Behzad 1141125333 \\
+		Mahaeswaran 1132702578 \\
+		Geness Jeeva 1132702803 \\
+			
+			
+			
+		\end{flushleft}
+		\hfill
+	\end{titlepage}
+
+
+\phantomsection
+\addcontentsline{toc}{chapter}{Table of Contents}
+\tableofcontents
+
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Figures}
+\listoffigures
+
+\input{Introduction}
+\input{Data-and-class-elements}
+\input{System-Archictecture}
+
+\appendix
+\appendixpage
+\addappheadtotoc
+
+\input{AppA-Use-Case}
+\input{AppB-FB-Design}
+\input{Change-History}
+
+
+
+
+\end{document}

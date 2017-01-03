@@ -1,0 +1,22 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Entity Relationship Diagram for Tank Farm Inventory System.\relax }}{5}{figure.caption.5}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Class Diagram for Tank Farm Inventory System.\relax }}{6}{figure.caption.6}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Cassandra database cluster for Tank Farm Inventory System.\relax }}{7}{figure.caption.7}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces 1st Use case diagram for Tank Farm Inventory System.\relax }}{9}{figure.caption.9}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces 2nd Use case diagram for Tank Farm Inventory System.\relax }}{12}{figure.caption.10}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces 3rd Use case diagram for Tank Farm Inventory System.\relax }}{14}{figure.caption.11}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces 4th Use case diagram for Tank Farm Inventory System.\relax }}{15}{figure.caption.12}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces 5th Use case diagram for Tank Farm Inventory System.\relax }}{17}{figure.caption.13}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Activity diagram for conversion calculation.\relax }}{18}{figure.caption.14}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Activity diagram for Handling Rising Tank Levels.\relax }}{19}{figure.caption.15}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Sequence diagram for conversion calculation.\relax }}{20}{figure.caption.16}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Sequence diagram for Handling Rising Tank Levels.\relax }}{21}{figure.caption.17}
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Activity diagram for notification in Tank Farm Inventory System.\relax }}{22}{figure.caption.18}
+\contentsline {figure}{\numberline {B.6}{\ignorespaces State transition diagram for temperature state.\relax }}{23}{figure.caption.19}
+\contentsline {figure}{\numberline {B.7}{\ignorespaces State transition diagram for level state.\relax }}{24}{figure.caption.20}
+\contentsline {figure}{\numberline {B.8}{\ignorespaces State transition diagram for density state.\relax }}{25}{figure.caption.21}
+\addvspace {10\p@ }
