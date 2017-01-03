@@ -1,0 +1,13 @@
+# latex
+SOFTWARE DESIGN DOCUMENT
+FOR THE
+TANK FARM INVENTORY(TFI) SYSTEM
+FOR
+TERMINAL SERVICES INCORPORATED
+(TS Inc.)
+
+Group Member:
+Oh Soon Kit
+Mahaseni behzad
+Geness jeeva
+MahaEswaran
