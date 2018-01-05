@@ -6,8 +6,4 @@ FOR
 TERMINAL SERVICES INCORPORATED
 (TS Inc.)
 
-Group Member:
-Oh Soon Kit
-Mahaseni behzad
-Geness jeeva
-MahaEswaran
+
